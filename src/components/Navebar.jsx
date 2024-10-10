@@ -3,8 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
-import '/src/components/Nav.css'
-
+import '../components/Nav.css';
 
 
 
@@ -15,13 +14,11 @@ import '/src/components/Nav.css'
         <Container>
           
           <Nav className="me-auto">
-            <h2>My shoping</h2>
-          <Link to="/" className="nav"> Home</Link>
-          <Link to="cart" className="nav">Cart list</Link>
+          <Link to="/" className="nav">  Home</Link>
+          <Link to="cart" className="nav">Cart</Link>
          
      
           </Nav>
-          
         </Container>
       </Navbar>
     

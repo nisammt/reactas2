@@ -1,6 +1,7 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navebar from './components/Navebar';
+import Footer from "./components/Footer";
 function Root()
 {
     return(
@@ -13,6 +14,7 @@ function Root()
         </main>
         <footer>
           
+           <Footer/>
         </footer>
         </>
 

@@ -7,10 +7,14 @@ import Root from './root.jsx'
 import Cart from './components/Cart.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Productinfo from './components/Productinfo.jsx'
+import Errorpage from './components/Errorpage.jsx'
 
 const router = createBrowserRouter([{
   path:"/",
   element:<Root/>,
+  errorElement: <Errorpage />,
+
+  
   children:[
     {
       path:"/",
@@ -20,6 +24,12 @@ const router = createBrowserRouter([{
       path:"/cart",
       element:<Cart/>
 
+    }
+    ,
+    {
+   
+      path:"/productinfo/:productid_id",
+      element:<Productinfo/>
     }
     ,
     {

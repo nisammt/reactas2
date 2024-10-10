@@ -1,12 +1,12 @@
 {
-  "homepage": "https://nisammt.github.io/reactas2",
+   "homepage": "https://nisammt.github.io/reactas2/",
   "name": "reas2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-     "predeploy":"npm run build",
-     "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
